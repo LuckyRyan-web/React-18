@@ -3,12 +3,22 @@ import ReactDOM from 'react-dom'
 import './index.module.scss'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
+import { createRoot } from 'react-dom/client'
 
-ReactDOM.render(
+// ReactDOM.render(
+//     <React.StrictMode>
+//         <App />
+//     </React.StrictMode>,
+//     document.getElementById('root')
+// )
+
+const rootElement = document.getElementById('root')
+const root = createRoot(rootElement!)
+
+root.render(
     <React.StrictMode>
         <App />
-    </React.StrictMode>,
-    document.getElementById('root')
+    </React.StrictMode>
 )
 
 // If you want to start measuring performance in your app, pass a function
