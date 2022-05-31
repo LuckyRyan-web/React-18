@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "@ryan-liu/eslint-config-react-app": "^0.1.3",
     "@ryan-liu/stylelint-config": "^1.0.4",
     "prettier": "^2.6.2",
     "sass": "^1.50.0",
