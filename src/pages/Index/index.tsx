@@ -23,7 +23,8 @@ const Index: React.FC<IndexProps> = (props) => {
                     className={style.AppLink}
                     href='https://reactjs.org'
                     target='_blank'
-                    rel='noopener noreferrer'>
+                    rel='noopener noreferrer'
+                >
                     Learn React
                 </a>
             </header>
